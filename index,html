@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESL Language Teacher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .results {
+      background-color: #f3f3f3;
+      padding: 40px;
+    }
+
+    .results h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .results img {
+      max-width: 300px;
+      margin: 20px;
+      cursor: pointer;
+
+    }
+
+    .personal-info {
+      background-color: #e5e5e5;
+      padding: 40px;
+    }
+
+    .personal-info h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .personal-info img {
+      max-width: 400px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .pricing {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .pricing h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      background-color: #333;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .contact a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+    
+     .expanded-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .expanded-image img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+  </style>
+  
+  <script>
+    function expandImage(imageUrl) {
+      var expandedImage = document.getElementById('expandedImage');
+      expandedImage.style.display = 'flex';
+      expandedImage.innerHTML = '<img src="' + imageUrl + '" alt="Expanded Image">';
+    }
+
+    function closeExpandedImage() {
+      var expandedImage = document.getElementById('expandedImage');
+      expandedImage.style.display = 'none';
+    }
+  </script>
+  
+</head>
+<body>
+  <header>
+    <h1>Учитель Английского Языка / Носитель</h1>
+  </header>
+
+  
+
+  <section class="personal-info">
+    <h2>Доброго времени суток, дорогой гость
+</h2>
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc93UjmEr21-55BFB7l-u596wHoPDzsgeV_GLVFkBXI-KnxIYHzQ-8nUu3YDQZpSbQjTmUr30VsXPTtfJxJNnv1k8UuuPHke_fNCxJ_qs8gFa84UAptE9DmEwmrLm4Zjo2QEezKPQMdUJP_OMAgrxgOJ50CBkohALnEMjY3eguH2TSU6ggu8_U9RitvkwFTu3WpwKgWtbO0mpCXcMhU_ORYDTKxoiZJRwpa-K0T7G7-5o23xgND--EV01YMFuF8vkpxYO4lVmS-ZRbKZ04Wzm5nXyIZyZ-2WUuvobd0MA5vVV4UjCDHZzujfSHv9bz41Ksk9sjQfbfetyII4SGDUpkbAV3wKPrEwdah3WhLj6V_vnq7MeqzUde2ID-PsRw8c-q8OVBnKJJt8EHu_VSZjKRam3GBa4A9yRT2ss-0aQeVRMW7ZutLKsptRflqKGk0z9vgerv3YzQT-vTr_Mv9il1W0jW_BuHe0ZlcnK-8wDz7RRd9sPEFXZ7oF9hjPk2P_2bEJkr49U4M0z6jfx0pnZ8TK8zlwcWVTl5frftQPRUaaP0LOjPSPswt9jB0C3Rxko1_jzJzWjl1U2mFu537iq1wjxloI5jopR30iZjf5gQbw6r2ycwOChzvREIjWe3_7O1rNLJ6ZigAXxiiH-BAhBCvRnF55Uu6Ijms2vfbpKsOfxHIfBnOyV33l74Y6DDGDOznPcF7odpMCLgij9McmQNMSJNPThyE_VV_7Qh_VmWTklRhwC8ZVTWpL4504ZZNk1JPIC-9YN0ta1NzYusYFwRXWUt1EUc2yBrZ9gk6u3zqg65USE9EACTKvj0sBxJfll3X1RhcC6jIJCpsa-SkSHlmh1BqpBxjnzSdhwtzZFt1w68DZFxTnpl2EU0VAY9mCNySzl1SvQO0_IxXJjubMYeB4AENTOF6hGF9HpzI4bUEPVa0NvlTEo6fzuba20Q4=w1080-h1079-s-no?authuser=0" alt="Teacher's Photo">
+    <p>Меня зовут Мурад я и могу помочь Вам начать жить в реалии английского языка. Выучить навсегда, не забывать никогда.</p>
+    <h4>Обо мне:</h4>
+    
+  <p> 
+Высшее переводческое и педагогическое образование
+/ Магистр лингвистических наук
+/ Международный преподавательский сертификат CELTA
+/ Уровень языка С2</p>
+    
+    <p> Опыт преподавания языка: 12 лет (3 года в школе, 1 год в университете, 8 лет как репетитор)</p>
+    <p> Опыт использования языка: 25 лет. Я уже давно потребляю информацию исключительно на английском языке будь она научная, художественная или публицистика. Это в купе с опытом проживания и работы в США и сертификатом С2 дает мне статус носителя</p>
+  
+  </section>
+  
+  <section class="description">
+    <h2>Я учу через подготовку к языковым экзаменам</h2>
+    <p>Почему именно так? Изучение языка через подготовку к международным экзаменам:
+    <ol>
+      <li>Дает Вам и мне четкую цель для достижения, что сокращает время обучения, повышая его эффективность. </li>
+      <li>Создает благоприятное развитие отношения между учителем и занимающимся, потому что каждый осознает свою ответственность за успех образовательного процесса, что также повышает эффективность. </li>
+      <li>Уверенность в моей большой заинтересованности поскольку Ваш результат — это буквально мой результат. </li>
+      <li>Учит распознавать свои слабости и работать над ними, поскольку экзамены проверяют все Ваши языковые навыки.</li>
+      <li>Помогает объективно оценивать скорость Вашего развития и вносить необходимые корректировки в программу.</li>
+    </ol>
+    </p>
+  
+  <p>После прохождения каждый ученик сдает международные экзамены в аккредитованном центре, после чего при успешной сдаче получает сертификат. Плюсы получения сертификата:
+    <ol>
+      <li>Вы, естественно, более конкурентноспособны. Вам легче поступить в зарубежный ВУЗ, иммигрировать и тд… Это все понятно и можно везде прочитать.</li>
+      <li>Вы знаете, что Ваше обучение прошло не зря, потому что у Вас есть задокументированный результат Вашего потраченного времени. </li>
+      <li>Вам легче учить язык дальше, поскольку с каждым пройденным экзаменом Вы обретаете больше уверенности в своих силах, которые не только распространяются на изучение языка, но и жизнь в целом. </li>
+      <li>У Вас есть четкое понимаете, что изучение языка конечно и после получения уровня B2-C1 Вы уже можете перестать учить язык, а спокойно его использовать.</li>
+      <li>Это по-настоящему хорошая память и положительные эмоции =)</li>
+    </ol>
+    </p>
+  
+  <p>В чем моя выгода? Она очень простая – каждый Ваш сертификат это и мой результат, что дает мне не только больше конкурентоспособности, но и понимаете своего реального положительного вклада в качество Вашей жизни, а ведь это именно то почему я учу. </p>
+  
+  <p>К каким экзаменам я готовлю:
+  <ul>
+    <li>IELTS</li>
+    <li>А2 для школ / взрослых </li>
+    <li>B1 для школ / взрослых</li>
+    <li>B2 для школ / взрослых</li>
+    <li>С1 для взрослых </li>
+    <li>С2 для взрослых</li>
+    <li>ЕГЭ / ОГЭ</li>
+  </ul>
+  </p>
+
+<p>С кем я занимаюсь:</p>
+<p> Дети от 14-ти лет и взрослые, которые действительно хотят учиться и готовы менять свою жизнь в лучшую сторону.</p>
+
+<p>Я не мотиватор, но наставник и всегда, при необходимости, окажу моральную поддержку. Хоть я и готовлю к стандартизированным экзаменам у меня нет какого-то единого подхода, методики или программы. Каждый из Вас способен достичь достойного результата своим индивидуальным путем, и моя задача помочь Вам его найти.</p>
+
+
+  
+  
+  
+  </section>
+  
+<section class="pricing">
+    <h2>Условия</h2>
+    <p>Если у Вас появилось желание заниматься со мной, то можете написать мне в личные сообщения вк за подробностями. Ссылка ниже.</p>
+  </section>
+
+  <section class="contact">
+   
+    <a href="https://vk.com/muradalialim"><h1>Написать мне</h1></a>
+    
+    <div class="expanded-image" id="expandedImage" onclick="closeExpandedImage()"></div>
+
+  </section>
+
+
+  <section class="results">
+    <h2>Результаты Учеников</h2>
+    
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc_7CU6hOksXXgzIy-LOXOeyPZqmC61_2HkIvXpMHcvYDARY1MNyijEcx72WJZdpjTX9yJofSqmbfUzzfiKw-E-8AkfryqqSLtOqIF1T5Pu08VDBhgd_KPtPTRlSM7otEUOX0YYY0SxijwafGQxQHbF0_HkBjBX3_eENXlMEK0lcIjf5x6dNDm0o-dzsh4z0w690cHu5oHXt04r7AJKkFgwu5tNqdBVL7xzDUPIZfqAhTnbg2UpByssdvZ_cjj2PlsyYrhVYdzhPNqcMX5aNCxLfDWRg_Iu3YuXgY0tTufTj5WmPsIFJjhZ7vkuagCZCLuohNJzZXA8md_iUiZPgOJHMENLO9K8x9G0LUCNmG2xy6wCBUOI-g2JzvWbFbcjCyOpkAxIkK0FF1qj80w7BNq3fyebab78zSdXfUDIml5_wIgmk6qNFGIwEX_fRCvmNLdPlsPZ3FYRqSuz0iuPXbT12Mmx4RHr-rWXADBMP3Vs7nwXXm57-1FlJ_unQpsm8szeVrrAAjpXSGo-B6pBqwmdd4Hvh5_Y_0ZNivrqA7uW7J42hJDXb14BGI85POOlPylvPnr0fiFkq1wH0gTnP6PlDlyHdE7cO2MYcwETnM8fzf0_qd3vY8RdbBBH-7nkjU4rNxtglyMdRQTn-S22ouAYFlFzgyRVvxb8G2Hft2c0Da7eR_QByxaAR3-Gi4Qj0NyE-Zzph8sFdG45Etn3B1__kwkU9EPdYh-hd6rbGMP0PKH9wh828BMuLs2OWam8QFMasHmSuiPKWMzDphWDqLzPjsK_TL445xHLphDHhcjmYPrcoulZXEh_rzZZXxMcUPWyUDQUKQpaoVrPt6sezuF-kLVW-rEBmRJb6O37XRsfiANwjcbWO6KNEK8PeHYRCU9OBZKy3TcPU6zTwlsZuw8CDfRgBS7_YjXDB39D4iaxvTancs-eNk-oxGYVGC6k=w784-h1079-s-no?authuser=0" alt="Result 1" onclick="expandImage('result1.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc-A1lrVGeN6T6hwojUPJyQNNS2duECBV8ZuIUR8m0aO8Ok9qLl7tW3SmzFPQHhE64VVIzASELi6JP1X6cA2wrPVfJjFopbMz8y3vXlaBieo8L7PVwLOiQlNbrosXCLc15NgcdvmaT8XBTBFHa6q81QFEcqewpN1gv0QiQ8pgkADgd7ZenPLcp3V3LINbMFKshBUno3vAZ_iI7ERdacBQDFvdpQf3F4vp9Ett14pphcc32VtMm5vS0qd1THqhYRhzTdqjtcy8waVqtfBk10Q-cQP-P3dp1VActo9Ncfi0SIVP6ar3F8APX7K1MyA7q3GMKveNbVlxHkMqS3rXanKaUr6zcHTNV7KYZMdJAuOU3cNbaRzXe-rHvQYwqqciIeopLxy-0np2nU5huv5q_w3KcIGipmrg-rZ1npX52JBhwJe3DtS09fjddXtV8Ct9hfHrMTjlNDhcGDpZfN6mWSVtiW4QAYGETy0hhcM7x6ZyPs0Fe4m3mN2Sm_cELUfUEGVoEsrGUWJBm-s6M1LzS0nlstuLW-oAQ34gyZUQHRmdMBqklAxzR49JDdtgdCns9hUqLy1lEJxIGzQnaFr0FK-_SUNDjVqLhSqIWmQoSTHd2GaGyqLV6WFXz_LvHU2hoNJWtJX99e2YdlaJ3TBp8LBGHFzA7g7iHyJgUG2cmmO9eiwhm8T-axq9pPa-p6abnyKo101t12HBTc6_x7bOQBaoUgIVvamFMIuisvJiVMCrWhbu5tre-zB9OSFGUGIVWFv2k8oZWo3K1nXgm9koxK5loA5Oj2grjeS_vXf8L4vr1gWOKBOPYIPdCwPr5qeZes4yRBYVGgi_rVwtkCcLTUSqzQRBdAPFgizNDS8pHTc_GhIlglFZPDlyF-psUBJzxiJcSyVBzs6aCYpHBqKWLZODweXtYytPM43e5Bmc8YuB-LF1hu9O8H3GSjYH5t159w=w960-h960-s-no?authuser=0" alt="Result 2" onclick="expandImage('result2.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc819gpeF_1jN-SBzhnEmyBja_aa7tUfHC8waCgMINMYnihi3MJwqIIAzYlBmijEIA8DvF1QvPjjuRsAT8dRC8cHjzS_AzPCl11z_Jm1N9JaWhZARPWeecTNrgQu-5fzBSLrQtYWQgZWLXwbuBOpaM7tD51wrsep9iws7IG6ziTnSdZI8pTO1rf8nN-2RXO1XFXuSnZUVrlaP64qRcRBFmqQEoP3ubsYKWfr5rsA5QpPYCVbRDFlpCkLFwHmDygAWUv9FMsOvvernaTgUx2k-O-wTXXuz5pV4cf5b65WEt1Jic9zEZT-jyWu6xJDShDk-UGY_f6EJvRHPlWeE-cHzFnla31dhxe6RF5AsW8WG5IvHEjoRfrIDxTtB4zBFsx0GJ-1wQNTGeDvuqaWrH63UxzqrAxcyfQiovqXooNzAJXKDjbULU_-OyIsh0mWK9yL8rQKAsjBdIlpp9FxinEcDTTC6V5RjIcaoNKB13trHh_mdmnBvkwGtfEu-rLw1EOG2iSvNHv1IhjNqyjkSWpR7uNRrF-vzQlQ4pRcSzrlEZFXg_tbqIlJCigVbmAfJe6rfI2l1P4Kt1Ifl93F6OLi2n9eYgFv3rtHaVtZepuMg86jIa7DQeFY_Sa2quIbLtS5CNVT0GCnU6LvZiESD8lStJYsbVxSxYwfYA76fD4zaY87egmHBqilshdMFoxlSJMD9U5DPG3JhKTjCAFVuegOx7maShm17q9tEmNW6V9sCg0XnG40LOj5JYkTzYAVtWIuVB5oJpRyS5idkS7e6zqQO2w4psLyMXv1PY2_MlpULVCKvMv_EC5zMLcoItBoQdTUdjz0nabw0FUHiDavso78E8dIRjyT9Dd8wWtlQb3LAMTEEEpDF4dhGZDoY_-bOpzXWcWl4GWyu8WCz59Vthh0hPY-54MSO1GKkvJ6o59eOs32VzeIgfikR-s6WG6gNqM=w805-h1079-s-no?authuser=0" alt="Result 3" onclick="expandImage('result3.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc8L3UOAwaiIrEJ2Ld_gYZTZ62fUtSy640GFDEcWOgkgJp9zHsrsgxjKKqTn3T1sguQ7_B0dOjoshCcs85ZCQGWx7Skkn-r9sWf4WZ5zFTOxGjH7VoWT5zRp_einwscUXt8OAg8B7veKX0Qx13QgU5LiE4P66Mi2IJ0cpGFEVUifat8R3TTdsmb03qfPWAE2SY3DnIwfC4r5cbansTo1NfHv0Z5hcMkRCRqQbInUHDsDmiuGVz-FEqNlOj_G4_Pim0w5NOZhl8SPw5rmr7fVL6xCuvY67L4V1cU5usdQGOBRLG82sgD-QED7qqcg3zPOxpRxZHLVHzK1V68IwaVEA9M4jl1VZXZJ59n4846nv7zjvMi9p-UKhAl-DzqCKKA14MGk2RI6y5XtqBrbpreLctcRSOC3qRPGHC1FdeTA3Sk3TC-SQh0w8QaNriEZxuhJoArkCT-PSgiHG4O8OAPdxLrK_05h2XYAAMpMrh_g52Z8K_mNSwdWNMBazWTIgGFdhZULvHFsvZsKN9tosTwHPXsIC16fQqE5r5Va2Pq7arqD9XSpnhgGA0wYSbdWcTTejUJM7NBrjI-PBzR3d5yj74g6TlOCRF9Q8VEdfA-o0R4jOFxsDRHNMRqZGVuerBGAV_X2xYqFpBGM8FLATOwPqUl2f8LRix7wzYA6lFEJP_wM0U8GiD1UGceO9Y9Bmg89Md8-J7ksrCb3mzmvZqD84J0fZ0wX9l0uS4GfPAAZCW_Zu9r8-R0PrshnjvIyLSbtQ4bIKLa6yPCVRReJkViuovf2UKYiJ_nJCgPikOyRhUzj6L97MfExTZOMFpzLzzipNspgK9MH2CvMvtR173Zw6uAlc2va-SAW8m_wnQguJzseVDUe5TLO9k_STwU0UDN1ui2Z4lT3nJJeaKrecstZ_0V8QOGPK7M0BP06iVAh36Zt9kQFOQETk4RObDffsNw=w743-h430-s-no?authuser=0" alt="Result 4" onclick="expandImage('result4.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc9zow-J_qA0oVF-FPo93QkawZCtcn2nLvQCHKVod4hmgc8nO_oRjXio7ckcw6T87MUvyD2xRNUXyFF6JsV1RvDvNLE5Y_-VSpMMmMBW0yTfQ-XldCXpSkkTfr5yuZ06pfLGRjL870oIKdqN33AAQFvueGGPcZ2ii1fqVkRcv6R5E7-pXLHHoQ1gXWuP6jhQaliJb_boRoQqFkxmnhs_z0Q-NSEr2gX0xILqR70ETRrnTf7OSg30fsHhTPR7NNRElhXJIOo7wXO0Xym7nRI4w2wRVGnG0EMPqJq4TIHUmjUiNg-fEOwGrRL0mC6OiKT9ynCRl03bckgBjdmSADhH86vsmav1f-U3JVHBwYimBfo-8aZRn8AFCO1srzuZC9WwEbNHQYrMTk0xT4_U3gRVhOovX6aQDKZttgFQLMcA-ugNTHoURaIjtdB7gSNd4HnQpjZuFQAJ5iziJYZEQEsmK8Fw8WDe4G-Uul2Zbkic7xF7ArdCQa87LV1b4dCjwYDWj5m12JUfMdQunU67Lf3w8JdKVNpYfbfY8yz8t4MWzumqDNBoXQlow_a29o-40-D8qytpGrDrg41efi5LKGjs-anHtEtHcRJnlD6QtPYThBqnYMQ_XYxgAsqe9lCW8EZUoSZUS_j2moTOjATvNjSMZZ2lcAxUmyHIixHnbcQOhG1kOjRZzdHMRi3m9OvnrF4GHcHPWhUqeJ0sgtme8zJDqQR4QAg-eAoQ9-sv_lSoPd22cznhITxScwu47LoQmRkERCq3tHXwAA9FM_4Wwg_xuwxD8b488XfP6XQwibmn7MePooHO1G88D6KFhSFT2_w54jwwC2BkYVjn2qSnzcvArlZslK2DWMMkMlTiyOOwTxDGWd46pwmgYIMoNpeIGNQxaTJu4UR29iZgYzaY6SuRX3kWzayE4k7oDAW3ZXLBPeUGmNFTpWuCzvAPpgIlPpI=w889-h514-s-no?authuser=0" alt="Result 5" onclick="expandImage('result5.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc_6FibIAf2Q5mY1AL9o5h5uCkpxvrerkv9d_VxQDqgUC1jkQUEevxKnuWykXCOwvIxUIWoymMEAkZ0TPzPIEvlnZ4il3SsEh8EjvSI8_dSsB0cCJ1HAsZ39VSwzXLeCYBesLdkFEn4G5wMJNqyUA0qG62hGFR6c6Pl-D0ihVW7nks7ZX9wmFRt7gqEfpxyUBJUVHmW5CPcxy1TbK2X3A0qU5M5o8tDUWkO1Jnf82GYQ65qqm-YrCWBA2eK3oOu3Pp454bDts1k5tUoGbPRem0tOUnwpwkyqYBPOpLOPhcbr6ji8xr7oFwesZjuf4w-bKUXuYedVWYV-QH9fuQ-DEPqh0-729ZoZLnjZz7dfgjgctsz4ng1cKpF0ZbnNntCrfwN_Byb294ukdHMwsVAKhRhxAMtJ6gNJsLywxr6_qBy9ZJdxvtEgu7JtApxW8hYQrQlVtThCidrpbFbzGJvqtoAeIfOCToc1OGxR6XU7lm55affDIKPdq6dXnohNFwqwatr2mi-wrnt5sjOi96FACqQRHL2LTi2npFHBGDuvu2flbgxRvxfFcKcCik8SKPn_Af8XsTitC8399Ho_OMV1tMs47EjS5iYWTMvRLAlGwPIRgE-nc9cvY8CVpapI_0UW4wWAL1aAwMd-uGRUPORulJrUXOIXT2ZzPFCuLOWvIlT2oFcquqrpFrFWcOl2mWzduA4T1svQ_I07HkDaTkG7rlDewH4HQASFADi6vsKBtIlJ7DHoVdqi6m5pNwY8Da3xX2SWzbh7drafU2MKlhsGjpe9WiX0Gr1k3pK7GLy5XD0tSda9UfEbA7_2t84s09-4tWTFRcp3YgIYgjycIgC7dFXu0coGFBLTNU8EHR-md47uQgnV9LSY0S9L15J27eggXFHc2UE81cGwNZFAIGmlx6tpcNk0S5z-1P1GV3YSliRxSak9Ev2l6L1kP9S5cNo=w934-h696-s-no?authuser=0" alt="Result 6" onclick="expandImage('result6.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc9kt7AQrj4HqvStDzYZvmRAKANIEe9bp4UEdtbZRJAYKGLU0YhFkGq-kZaYKCAa74YKbIV8ujm-hcDLdycDmUX3ltyoHQucpjNr7iOdeYfSgRYyIQWypMFHCXApXJugMbD-o439nOhNJ1XY-WoQ28PWKECy1iXBPttnnmJvJf2ihQnI61otvvttWPXFuQxoFikci9URuHp7ObqdYsh7jq6HNcIRYiiwi2ZX9LXlD1BHdOp2GPuvlXZGMZIadQcHqPXhy8LZhUDr4pECMHX5iTk_QX9dhdbMCi2QUClJVI_zquDSFKWfZ0ev-beq0ADCULBtKPOD1PNsfa21d96I9dA0oVDkcih1eCxvIQOPHqqB2v857MXDr730Sm8zR2_vDKyfWk2HBoSNPWrNIQ5KVfQU3At2IV_3l1ayK4TKEpzicKtOb9aGBwGIEYSqi9PHcXughc0jwFlahzSpUqvAzgAImqOUCRsLpQhrikQE0-nQIMRLgzDZQGk9h6vc-DP1mrhmAyULQm7QJRPnK-mLvr4dBYk9M5Y8TmRNh7gkx-tAQOKBOT-ArHKd3PaEHaRlZdMNBZWHi8kr7AxyXXW-sD9KIX5PyuAt2pxrVwTL4GbHM69m24y4YTIU3B_rx7nfd4kksJZvxYiBZOzEvx-RW7JzfXhYygz9NVs1sHvDpi9_0niqjj4ST7SF9z-fmSoY1pk2OnfzN_O7LQCtfPnsekXjirqDLzM5-0DYAbGG2N7_jfcp3EjPtwW0CyoBOPJdlDrH43prZZLJnENAr4RFMlCsyq22aPc9TfDWSLQKt87hJWvzYZFBB3cdPTe6liE7B_RNZv2UhOhitvLzXpzq5rxbYaQqxjLje_Tla1NTVleIDzJPe1iC9WuRH3tP1sqtAP6wnXoY1ohjAP6rLugMmq7Dz3N9MwBb-pam1bsLe4HaSPrZ_ls01Oi_jzVbbhA=w815-h436-s-no?authuser=0" alt="Result 7" onclick="expandImage('result7.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc9Iar_NCcedsvncBRnK3bR8pq72elflTA15a0knBrbGc1v9N3ny-ZRTKsYZiQlGWzL4U7Bz6TOXjrtaszpzBcZIcjQexbn7AJkaIRDH2tFkfa1OREYu-6srtKw12Kolxw2r6SiVxXhBfefiN4Im3gHWVXahJUyPy7CGPRmwUMNz9LcEuAPCFiHn2TPuKjIyhYnLJc7hn_DpfI4GrPJUlxVKseSRGzuJM1ay9wMDmKshfWh7_fI_2VKSI0ra9t0sS2bf1kq7OQSK0YpHCyy-UWR28aCTwzZpcUqbVdEXqGIgvnYh437q4Lg3uiBIVC4o801j1undcA7haW6yHwu3d_BXrLxFV5nWk9GPS52JI__Oz_fgcmt1LFc_TS9ut-9E4VCNuiLTARhg6F2VEW-GTe1u1t0JGNqpqegjclYD0ceypQ-SiMbzzzySkhFp53unizB8HugaeBwutRxOxD4vJIHsdJGGdZWTt6OKeT4ear-YxUqzRWQE8VSdJ44FKO7irmt2VwkCcOI6UcGw3OpDWg51uFSMmzQQOMVhcomdi9tPOQHd8HnKyL-u6VJydnPGixP7OYicea-LhrN5ZZknyrUGmuyDhs8tKzcXIZ4Q1R0zZybCqgzRoUoq3irrBsb7-MvzzqoHSywTLLheSozrStGF9Go4z90iOPTSBh8vadmGZPGr3nzanbT0Yx3c2JftOem5cZkb3XcpggLXfzyfIYResbwX6EUz8IqFwkfybQETgrhlD6_hgqWRAr8eNcJMjFqvXTVDydQcVuuuuSCfVWdPp2wATgPEjsipIA2AR1FoLjwdt02R5YwLBZUFpLwW0TKO_rN8LEjcq89NBUlH6MCl8LFFSx1FcFwWpDM6Ov-NTHQXvZxmvbppHXvxhlXRpDVhkaRPW-jp4QbG_2m1YWOGdgCnBanNVwPhgrPtVwO6Uf5_UOAdeLAuoqH8iuQ=w1192-h920-s-no?authuser=0" alt="Result 8" onclick="expandImage('result8.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc8N7Rshblno78WribaFjUZhG-FqrKuQvxdAyx7COkh7_yjszc7BValU5EpQjiJ4dQN9MP1_HH3dqxc1pSk7o1JnKJmbSt9PMIKMlRyuJIUwA8FV8dtinoI2Fh6ukl72yD4Bm8OKsuXI7gkrKCpDVN3m1pUX6CpqwFZrR2VoqC8svcVxdXWGCR3H1uw6r-i0qKN93pyv6QXBZHFg2hDkPSGx6qYFP6gOnxXMSnIPn0ocx5iGrOuYjAaDFgcciOAombM81a7g5sQe2_OB0-jOeD626IlkkGBAGiNtizJppUowJV7QUv8zkZ36clb1SGrw6sorDyDgM0gxRBFC5MQvE1c84RTeaoe9iuG9A3jP3eCWav3BCJVf0dOrD5AEjYpCnwy0sJhvzkp4q4gZM9wJe0nbzihClDrRfwqD8ATuQRjGimlZsEfWao_xMd8Lo1A-7-wt9os-hSCJg_KyHr6836PYcx40CVJOR_eh-B_0ko8o0GLwLtzjAaqbVmWXzb3nF86cia63TIJXdrf8pRIQhsgx2Gp02pgRPM_SGarZ89qdblAiEcqHrYDh1z1NroU0l3YjY7lCsRhspnDbd1VamD2YMQSwVub5QymiuTemsnrN4X7pK67IxV04wy2cmeltUSC4dtEi9ZnvmHfKU033TrLVfuY3pGp0S-exPdEkkAJeEWFJ4aFAAqEk_A5nNAWVqo5gR5dsPlVh4FG_1MVJqVK8-ZQXfKJiEkW7yfryNWqNlBhB0U5cBSW8_XSv-f_NeP2BtQ_pAC1GORiFFOfh3Z8RC9LUIxUG1HCaCqF9Z_D1Vz4MK1sH3p6mezLE6owl6rj8-FjYcLVOO8N1fBNvYSmFktdnvFneH7JCyvEpC6FU7YQA5G3ohfWQa-2h7H9s_2SMVgphjLgHvJQ3kPb0R2mm9PMMQ5ZP2BxKqMK1zey6GImJEeUtQYyJnYPEHWw=w1180-h904-s-no?authuser=0" alt="Result 9" onclick="expandImage('result9.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc_E0stOCfMODe6iokbRoGZnYfCORYMZ3q8L4gokZhdjnz-G2Ijc_x48Nhb1PBO5bxwh5uaei3Y4z1dDufiiT451UbycntrPLvJs9GdCiXqeEC2u8kIZy641tlwG2l07WN98TB2YQbMQ_sms57_J2MO3LnbZuUZHkb_zJqyZBzBug6no8SvOlOKO-tWHfBazaxqSkllnPk-gInoj154o3nTJd5BwtbMno-eDLOJE-lO4YBB_jM53oYgSGclc0VwT6BCscr-JTnn4jrisey6wD8dyyG2vTufOgYfVSE-AcFsKoe_noSY6JYYryYgVgwrxQBxuuF5y8SeyFmLbQ5lwWASc7ooqCvx03TqYEp9C40a5iQWuBlklfiU08_Biil3AZywg0iyRTwjTGl18GEyQqNBVUGnybUwCoucdyGPePiLn7HGg9croOJQfMbxtnc5Wcg2d84LCvYfZ6W5ZSFmcyAR5aCFHXY3kWlqMiFNB_mtOh27g6DqkQ_NwUytj_FnfgtJqkwHDGcy3CfCjlKnCG4lk3gnRcSBVx_MsYXdtnW7BzTAYbEW4xKLJp6krjJgim7c-3Xn5n90PjLXfbJX2PQz1wv8OQxlDWoZGvPa2ViedCG56Y8JXsokg6nhJw6CLDJjeeGs95W2ec87DBIMYM2SXREUN6_b2DBlWF4zUAu-O1AKGGHieL1w-sIszN0piPd-h_dRadN6kZnFKuH-IVsLHGpVvuLEH_2N15KfMZx9pwQtNlNnBCvN2yTN4AhusxEY5c5SEZi3AlRFPwPT9xRVFDZARQERlKbI5qvVuEyXfDvcKeyZwHc7qva7KljOJFSdIOff7ZELUE9ecPVWeh0DwnBVIy6hiFIHzkNqsm7NGL2Iec4cus8Y-qhj7u3nZ8g9GSzPX0sesGAzhgHc363lGNMtgjIvBQ7brLhkTSCoCuHHED5eJtfixpisJx9w=w1142-h637-s-no?authuser=0" alt="Result 10" onclick="expandImage('result10.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc8eHhhNUmqappTAD0w2AiTYu0TnEHcdXQZF-hW2vC5FSWUXMAxZeGHIjwBFsPLLGEk9VO_rcIc9yayEFFi_UHKQQ8sgWWKU57_5j3q78t4eRKQuM2sIWLE9PrQ2pESV5eYzQsKRDBjNPYeRN3K96ll4yaT9S11gzy6wrknaKrTxRXIWa98gvpeP9hZiVbEyF1hCWjJjz7RubUFp-8663mtMidSfb3Fjfs73xp__cYVGiCw1_xtz0BXdaG_7LdyPIISSNuB31a4RQU_kFRSDZAV5i4Xa0xAfIDeKtUn3cziyXZUgLkzuZinRhGheCExKhcz0axWSEWbx1T2YK0GWliBiYQloGBH7LCzJ2JKLAQVZuBza2Cb0zFNLKFJaEPjSDtZUja8tml-zyD2Olxk32ENOlk78fsZGE-Gr0vQabCVEEb4pB4pV136JLhmnk42GovQanyJETH0E5kN09BCPeIPYyUlk1luL5A3tcabUn9WvOGdJjDPdJvxKjw99bW7uX7KK3b7QFTgRLW8ntjCYGUY3aJ_QxPbUcdDunXrWy4SiUZEnUgsJmDj8C8xv4GEOUL5mFzELMDqPhoCxcv_IH9icEbzO6Mlm94RrLOyr76h48wr49vlhXPC2yrjXjCkJgQQ95GeUDZuZSYhKKXMdgBQX_1Ollh9Dca1gVXSeV6S1ckiXHTDspn5Lxz_C-Bc1Vw-2mJTHW6QQEK9goubAvr0vB0Tp6hhMfitmJPJ4u1VWWER0j7ggqTbJLTWTuUpHIBF0NJQkTe3NWXMdhD9czFEv6XAQFtssW1Brx3iAyWuCFnbPjLKfTwVuu8gkgTfQcDrwc4uZfFhf0bP9FnAIRTXo6tw63GDJbWM_IRGMHwn-W__JqhdLNqa5Hi5sNGdxbim8IniKgK4m2QBuGt8fvgkynpR4tc1Jo4Eiq7dksRfLHVe-Dww8KTQl2QfQcoE=w780-h404-s-no?authuser=0" alt="Result 11" onclick="expandImage('result11.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc_e5Wf75IpfHETWvoyyiSP8Nix3td4W06siIZGk7JvFoGWnIFI8bln9XBWYDijMKw0OE2y_eyk1myCVeyaZi3dbZBOkNKyBpANwq29m2ln574Rua15wbPV3ktG6Hklq7Y0cQLSEGTGbjFOCTqFBrwPmW6VZWJAw8AzCm4AmZk8cBE2dfQ86h68I1EPuXaif7J2xz4znlBZ0ODJa0v_3jaNloy5YH5IHvx27j7pOuN0sGwFwZZ4Aq8BiQdd-c9mrgQV48MDhBv6gDHu_cCeCUYlY6I94dnTXbK9siRYPVZ8Z670dJUXwKDAo3gRBBgzfHonCUKhN31SarPynlNV45BsBDW5Lhbqb83YUJphse3rzD8M29cxBw-sDTuIt6yjFDveAweRbPwl5hKwoNYcuQX2_n3lXXALlxFOUs95lc0Sk2iQZPrhEKI4oWkiG2RJHQ2-OIriZ15xWH18EPhGrH8z-aurf3rRTReuUF8I4-BJ2gxeAGwm_4J_25GbJ0mI6cTdU6vO2RZnlSuW1XSOhh9QH5xvzAiWIR-GORYjjckAGvYrXAWGCZXvURLJuOLJDn7zSBqPGQKdT8RP0WhzAqL3tDodVu41z-PM_3gaykjlcI8B3UDtsBmHscfiM-td5G0dIRUhmZLY3VvkiQBvVBiy8MQYiocDDJ6gTb7UDikddYbCUaWCz-JlVhj2xDgoSBRJMIVJqeJj_W5nFu8Da23ZqcFPI45VMqdc8UDkwHkHtxIaK3o9twFfvlE9_40EGuWYj_w1WoqBDuDMgCbZ5tVjaxYt4J3_99EnC-G3McyYymVVGlaPenWZgztspnEyk9wnze_0gLNdMZYujcSKUONzryS413oa0jdSe-ekLU7jv5fdE0v9J9DElgep39a4jgSrn5Xb5pEwr0VuIEmeXjJ9F0vHvSkHpBeS7PmeUPnqe3wc0brYXwPCo4boNS0U=w661-h946-s-no?authuser=0" alt="Result 12" onclick="expandImage('result12.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc97bQ6BZHIkK1ekAxPElIrHijedLz5zNFgaWy4uB7i6WcXddAHQYFluwrpO09sQA7w6ARJx0TocPiJVrIBgt-MZU06HVjMj1qZFK1iQ42wAxtczBsz7Om2ZA87t2AJo6A2JcNxf6O_ava4LV3dz1FheogjnQyKVQV3lUgiKms-LDRuN2unUS17q-aMM3UCR0M7wR7BwA84W_-0arbdo3VybN8r2vdg4KOjVDIXbopR7oJuyJeltAdNIa0RZextfJdy-i2jWiMU2WH7P1mi1Y1oBZXAwrgdVX_MmD3hLdFoi1CyNV489h83W4q-xxkciAIWeupI8Yc5PEArUbFtfwnZjbAg6e4WWvRY75piGGu95TTHk5CYaCg2TMmVIHnxbM4baCmp83LgWfBWviEngiTuifv3mymgv_SmWKsT35475RdQ_wgdvUWEZU0EAHSH1OlPwKjksooZEWgwxDanu-JtXi1qd-gE3PZ3TtZjJk8SIs_wik6ynAy_tG1Q6alZQHZSxV4WbJ4YBaqvHmwF8jECF7hv9wW-eNy4OwxzGCYJuVNIgvOLFBisdy4tzV7Ryl5pyPZhL2c0qBWMDeMy017oyUv7PUS0X67oi26m-ykxeVY-os3edu0ErQTSzrxnqPn3wOicm1RmvJlR8wU1LZUjBuMpSkXIBuUf7LF0UF9qe-4mUkFbvGMauyBi-FMzR6Fw2ulGON7HvL1TwaakoHQssI2xoWxSDnJOjcGeKNjsXfKJmC9id-rq6_itRrsjsFcVt6t4RMG7HtXIFhUc2GhLpYtaRDgMPyz8LkPeIfc_kO4-TGOq49HJpq8xTU5_fiGaywhD0g2OlBY5GsL9rdov6JTjGecyeAVl2PugngKB9cFnqXrWLT6luyEZUg8eMlgUeM03cWY-Z5dC4R2kIJS13FnDuG-Xbq8TeLeUEjZH3djeyjb0EDfwyrHOXHyM=w684-h987-s-no?authuser=0" alt="Result 13" onclick="expandImage('result13.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc-7h1DLHyx_BpqMCPPQEhPufK6jVkyeXLWiIcB46pk3Aixm50xm78EzgnY7LsYdf4jWi4tI2qQVWyVuQECydBeQ9-0s0XJPFHEmmmnQC4ZMkrrso00vYwNlKUru_2X6qul_QCie58qbysoeEJN4bvG2UNk4yuIOKvMMvqtCRHtTI2dR4VGRg_6NDb-JfzZlezJJgYq7xCM6fXgP6W1FU58liLH9Me5YBsy1xKqgH5Isw10POLwch1XA86m_ryD-QnkgKR5fwE29fucNp0DnjMCfR3Mabphpdp9Wp2aU5xvQo47_xGao-KV0QDxTJBCXC3DgH6IYeq3rhAPimlR4XTwH03b00aPjyb7isU6g-xznAXf4tPkg22iucUunOrzmVbdWCCRMkECzAAgoUjMsKk6GBJV7HiF2CvppK9uwIVFPFY6ulNap-gKePd6u7Yl_yw92oNbLYvlc_Mx2R2C0PlJGsyfL8MZF6lKJo67EmWn5GIrU4MyGcaExwdNDCjXVVT-_uV-QNU-CDLQ1AkYx0m5bwXDV0lxgJ5DOLS3BbMinm84kCRoKT_DU24Ul3DD3_Cjyw9ZA210FOEMld7CXVxWxoBn9ABbykFBUipnqtANjd259xXch7sMFsmhFQa7XKDPAVEaIKt94mZUDpCEnH88KVFGp1mtzCBX7mG3AWU5ii8TqyastvbdPUZjul93y08ohY0NWLg5aP_-8_R_16RtUminfo76BoeAvkIxl-2W71ziNHS3-CKLCsCB1ALflOZXUjRGywWMNT0ry-SjS0XNb09ptFPyj56hdXZbqhFn6adOtibyq3nobfs18TwXFA0d3dqqX8QAHx07BHhkp5HOmwftwqczVm-1zAt7pv0gz9uaZZDnqee3bQJBTxqSO_XnLzgWIrXhfexuf-1lrEeHfWlPpk6Fg_ml_sPEr4iN_VyzayfH79e4RwUG8dFQ=w681-h988-s-no?authuser=0" alt="Result 14" onclick="expandImage('result14.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc8xmlWu17eTggUSxRAIUI4SRdYdoIVfef7WckiO5yCzispI2L2MkCXgJqM2eokY7UoetcNkV4hF8BezuGKJ3jeFAzqzJ5M5sRv7IISKGsY1P0ydg_K4YzGndpnj9uRuVcXMw0GZhJvsm555Ffbcs6q8vo7u9n2gzyNwIvycRYX8MeddOFE0WWiCFhm-_stR67m0DLfyzMj9RRxCYyFLQSFlHon1L4SgKIhNPcGW4bwxAo4rrlHvDLvc4U7ejotQUpvX0vWS_43dhk89yONpy21GOiYlqO9bF3Q8ITLvLo4QKVo-IAif91E0UTgVx4B4lWMss1p8pEF974W28gtdA7npYwgalubbQAIgVeH3tkfDb3VfA3F29Y8CUJq9tX8yMYLPH6BpFRwPWNEWiCez29pAn1eqhiMtabNR0SOGcyPC_7N090pzQfM3o6RVhOIEtgWdtyHkuNYjg3QyT4-OO4447CcUMXAm2aSqKBxs6a29P3z7fOrCPq4yYPx4yhztVUC3qeTSNEIoqs-lLcqubv1mgiJ5lE2xCRDR-3boL6RMcD3Og0yUUL_LQk8ZAh_kkK0bPOytrMeDZEa_ePFNla9xq9b-dpA6cEiv4BfIp7m1BUWzvCqSS2CVa4fWGhRXCQJnGb8R1Gqu-eFViZc041V7GZULWh7UvY1-fRSzNgWnK_8k-JBAEa2M_gzh6zEV4empMORKmrDBbh-W0AZmC1I5m4gtQSmX8vxEjw9WbQ1leBxnzwa5PgYbg5oluYKEQ-0bKByJMY4X-xpkoV8eEOgB0OhuYV2o74H-P2mRTnUYK1cJv-rFC1s3KMO6tUmyS0OSd8ehT4PTd5VoazLdkTRWQBZ9W19CJyb9luwY_SbE490vstZMO1wOHuyhuM3ykOZMMiqSuYTOeMzRgpY7_GMXpVP6ZcpBI-NVyBIedSzC5HjYTpUlyt5dxlOYKvk=w665-h957-s-no?authuser=0.jpg" alt="Result 15" onclick="expandImage('result15.jpg')">
+    <img src="https://lh3.googleusercontent.com/pw/AIL4fc_eRHhZ8ZOnnyZTmHPGXIAg9LE-FRteKbXRXqt0ex8eyATQdst_tLG2QQ01sHoSUt66vxaqbNBbiz3-lw2m2Rso9uTm69IU_yE_-354bx7-FLs47ZXT4lXLdoRJaXb8JEO9-0x9yQxXq_5Qa77hKQeCpgbVcJ52S-NN3dpQ8j-BeKNhECd6fhD6JXrF9D-JOvnwAmWYJ-MQj4SeXIH-RQkrjugURocQIE-fZjmYLOj7XWTOxipA6ASR1I_y5zFBRgDWxkj6QG8urrckk4fc4tPXgWMbg4mj1jI4EkEKB2VpBNtmbqjvyWf-oANDHnkGEwsJymppgI_VVtxhbEns3zuPhRXUZTfW7NLdTZUdzVVIVra7XdWndVnixaYdxYtfJ4WJ9hGhwi4r8BNualwapRqXI8Dd0r9GkBhXN4t8QP_lCYpbXPSHcQx5cghxIuYnowwoTfLVt1Vhz27aVN4ZgiUMNjVHxtI5-aNp3BdW9k5fCueHO3dS4tSZG5Z6MrGNMJ4-g57q1-62S0bqHVIa_MSG0wBDFMH0hWwhTo3I2Cv-L-SVMdwhAMxnT-8q6PPUcMbF7jtcnzJtsc6rlK1GOagj-1RAjx8KiGcMKbkTFQfKSBiseJ89HwZLYv6_ww4DamGrCFUE61jdauVvKL0DPcrI2L7KOLJzs3Q6ldEAeIKe9BIO7wPztH8fzElPcwVWHFrm4ZhSM_LUSL4GzGICN1LgXwmpLuD38VR_AcMa-JXWAGKmAv0UMNxfDE_RWg09JJ596k9a0wm5e0TmGiyMZymZmp1m99MwLDkDqm0qax9PEcaktHZ0uefHetFKFojbkdJf7Y4z2LZKIk_Le3lcY92mFDI_O7zccLRzCHBpFAlKzHK0kwYaoKeLDg1-o-clEKN23fa71yCoYWnX9VRSIRIs9CvnGyf-iZ7zS8QpAz23wGIoVkqaRtoI7xEq1VM=w642-h928-s-no?authuser=0" alt="Result 16" onclick="expandImage('result16.jpg')">
+<!--    <img src="result17.jpg" alt="Result 17" onclick="expandImage('result17.jpg')">
+     -->
+  
+  </section>
+    
+  </section>
+
+
+  
+</body>
+</html>
